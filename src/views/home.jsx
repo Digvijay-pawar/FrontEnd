@@ -32,7 +32,7 @@ const MobileLayout = () => {
             <span className='text-secondary' style={{ fontSize: "15px" }}><small><b>ID:1234567</b></small></span>
           </div>
           <div className="col text-center">
-            <Link to={'/login'}></Link><button className='btn btn-outline-primary mb-1'>Recharge</button></Link>
+            <Link to={'/login'}><button className='btn btn-outline-primary mb-1'>Recharge</button></Link>
             <br />
             <button className='btn btn-success'>Withdraw</button>
           </div>
