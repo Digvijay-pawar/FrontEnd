@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import Tab from '../components/tab';
 import NavbarTab from '../components/navbarTab';
 import { MdEmojiEvents, MdCheck } from 'react-icons/md';
-
+import { Link } from 'react-router-dom'
 const MobileLayout = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
@@ -32,7 +32,7 @@ const MobileLayout = () => {
             <span className='text-secondary' style={{ fontSize: "15px" }}><small><b>ID:1234567</b></small></span>
           </div>
           <div className="col text-center">
-            <button className='btn btn-outline-primary mb-1'>Recharge</button>
+            <Link to={'/login'}></Link><button className='btn btn-outline-primary mb-1'>Recharge</button></Link>
             <br />
             <button className='btn btn-success'>Withdraw</button>
           </div>
