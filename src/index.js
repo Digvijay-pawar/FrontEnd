@@ -29,7 +29,7 @@ const App = () => {
           <Route component={TaskReward} exact path="/task-reward" />
           <Route component={Withdraw} exact path="/withdraw" />
           <Route component={Recharge} exact path="/recharge" />
-          <Route component={Parity} exact path="/" />
+          <Route component={Home} exact path="/" />
           <Route component={Login} exact path="/login" />
           <Route component={Home} exact path="/home" />
           <Route component={CreateAccount} exact path="/create-account" />
