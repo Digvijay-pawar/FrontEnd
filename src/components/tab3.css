@@ -1,0 +1,184 @@
+.tab3-container {
+  width: 45.91250228881836px;
+  height: 47px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.tab3-icon {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  align-self: center;
+  transition: 0.3s;
+}
+.tab3-icon:focus {
+  fill: var(--dl-color-gray-black);
+}
+.tab3-text {
+  color: rgba(0, 0, 0, 0.76);
+  align-self: center;
+  transition: 0.3s;
+}
+.tab3-text:focus {
+  color: var(--dl-color-gray-black);
+}
+.tab3-root-class-name {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+.tab3-root-class-name1 {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+.tab3-root-class-name2 {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+.tab3-root-class-name3 {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+
+
+
+
+
+
+.tab3-root-class-name10 {
+  margin-top: 5px;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab3-root-class-name11 {
+  margin-top: 5px;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab3-root-class-name12 {
+  margin-top: 5px;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab3-root-class-name13 {
+  margin-top: 5px;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab3-root-class-name14 {
+  margin-top: 5px;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab3-root-class-name15 {
+  margin-top: 5px;
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+@media(max-width: 767px) {
+  .tab3-root-class-name10 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab3-root-class-name11 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab3-root-class-name12 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab3-root-class-name13 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab3-root-class-name14 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab3-root-class-name15 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 479px) {
+  .tab3-icon {
+    top: 3px;
+    fill: var(--dl-color-gray-white);
+    left: 10px;
+    position: absolute;
+  }
+  .tab3-text {
+    left: 10px;
+    color: rgba(0, 0, 0, 0.75);
+    bottom: 3px;
+    height: var(--dl-size-size-xsmall);
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .tab3-root-class-name4 {
+    margin-top: 22px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .tab3-root-class-name5 {
+    margin-top: 22px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .tab3-root-class-name6 {
+    margin-top: 22px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .tab3-root-class-name7 {
+    margin-top: 22px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .tab3-root-class-name8 {
+    margin-top: 22px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .tab3-root-class-name9 {
+    margin-top: 22px;
+    margin-right: var(--dl-space-space-twounits);
+  }
+  .tab3-root-class-name10 {
+    margin-top: 25px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab3-root-class-name11 {
+    margin-top: 25px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab3-root-class-name12 {
+    margin-top: 25px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab3-root-class-name13 {
+    margin-top: 25px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab3-root-class-name14 {
+    margin-top: 25px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab3-root-class-name15 {
+    margin-top: 25px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

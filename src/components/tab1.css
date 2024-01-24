@@ -1,0 +1,177 @@
+.tab1-container {
+  width: 43px;
+  height: 47px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-decoration: none;
+}
+.tab1-icon {
+  fill: var(--dl-color-gray-white);
+  width: 24px;
+  height: 24px;
+  align-self: center;
+}
+.tab1-text {
+  color: rgba(0, 0, 0, 0.75);
+}
+.tab1-root-class-name {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+.tab1-root-class-name1 {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+.tab1-root-class-name2 {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+.tab1-root-class-name3 {
+  top: 17px;
+  left: 20px;
+  position: absolute;
+}
+
+
+
+
+
+
+.tab1-root-class-name10 {
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab1-root-class-name11 {
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab1-root-class-name12 {
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab1-root-class-name13 {
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab1-root-class-name14 {
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+.tab1-root-class-name15 {
+  margin-left: var(--dl-space-space-fourunits);
+  margin-bottom: 18px;
+}
+@media(max-width: 767px) {
+  .tab1-root-class-name10 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab1-root-class-name11 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab1-root-class-name12 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab1-root-class-name13 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab1-root-class-name14 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .tab1-root-class-name15 {
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 479px) {
+  .tab1-icon {
+    top: 5px;
+    fill: var(--dl-color-gray-white);
+    left: 7px;
+    width: 27px;
+    height: 25px;
+    position: absolute;
+  }
+  .tab1-text {
+    left: 0px;
+    color: rgba(0, 0, 0, 0.75);
+    bottom: 0px;
+    height: var(--dl-size-size-xsmall);
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .tab1-root-class-name4 {
+    margin-top: 22px;
+    margin-left: 56px;
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .tab1-root-class-name5 {
+    margin-top: 22px;
+    margin-left: 56px;
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .tab1-root-class-name6 {
+    margin-top: 22px;
+    margin-left: 56px;
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .tab1-root-class-name7 {
+    margin-top: 22px;
+    margin-left: 56px;
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .tab1-root-class-name8 {
+    margin-top: 22px;
+    margin-left: 56px;
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .tab1-root-class-name9 {
+    margin-top: 22px;
+    margin-left: 56px;
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .tab1-root-class-name10 {
+    margin-top: 22px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab1-root-class-name11 {
+    margin-top: 22px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab1-root-class-name12 {
+    margin-top: 22px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab1-root-class-name13 {
+    margin-top: 22px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab1-root-class-name14 {
+    margin-top: 22px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+  .tab1-root-class-name15 {
+    margin-top: 22px;
+    margin-left: var(--dl-space-space-twounits);
+    margin-right: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-oneandhalfunits);
+  }
+}

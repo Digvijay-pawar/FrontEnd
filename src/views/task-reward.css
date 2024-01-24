@@ -1,0 +1,182 @@
+.task-reward-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.task-reward-container1 {
+  flex: 0 0 auto;
+  width: 500px;
+  height: 100vh;
+  display: flex;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.task-reward-container2 {
+  width: 100%;
+  height: 49px;
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-primary-500);
+}
+.task-reward-navlink {
+  display: contents;
+}
+.task-reward-icon {
+  top: 11px;
+  left: 6px;
+  width: 41px;
+  height: 25px;
+  position: absolute;
+  text-decoration: none;
+}
+.task-reward-text {
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+}
+.task-reward-container3 {
+  width: 95%;
+  height: 165px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-primary-500);
+  border-style: solid;
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: rgba(133, 220, 255, 0.16);
+}
+.task-reward-text1 {
+  font-style: normal;
+  font-weight: 700;
+}
+.task-reward-container4 {
+  flex: 0 0 auto;
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  background-color: var(--dl-color-primary-500);
+}
+.task-reward-text2 {
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.task-reward-button {
+  align-self: center;
+  border-color: var(--dl-color-gray-900);
+  background-color: var(--dl-color-gray-900);
+}
+.task-reward-container5 {
+  width: 95%;
+  height: 183px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-primary-500);
+  border-style: solid;
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: rgba(133, 220, 255, 0.16);
+}
+.task-reward-text3 {
+  font-style: normal;
+  font-weight: 700;
+}
+.task-reward-container6 {
+  flex: 0 0 auto;
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  background-color: var(--dl-color-primary-500);
+}
+.task-reward-text4 {
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.task-reward-button1 {
+  align-self: center;
+  border-color: var(--dl-color-gray-900);
+  background-color: var(--dl-color-gray-900);
+}
+.task-reward-container7 {
+  width: 95%;
+  height: 168px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-oneandhalfunits);
+  border-color: var(--dl-color-primary-500);
+  border-style: solid;
+  border-width: 1px;
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius8);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  background-color: rgba(133, 220, 255, 0.16);
+}
+.task-reward-text5 {
+  font-style: normal;
+  font-weight: 700;
+}
+.task-reward-container8 {
+  flex: 0 0 auto;
+  width: 90%;
+  height: 20px;
+  display: flex;
+  align-self: center;
+  margin-top: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 5px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  background-color: var(--dl-color-primary-500);
+}
+.task-reward-text6 {
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-unit);
+}
+.task-reward-button2 {
+  align-self: center;
+  border-color: var(--dl-color-gray-900);
+  background-color: var(--dl-color-gray-900);
+}

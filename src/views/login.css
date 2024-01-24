@@ -1,0 +1,285 @@
+.login-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.login-container1 {
+  flex: 0 0 auto;
+  width: 500px;
+  height: 100vh;
+  display: flex;
+  align-self: center;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.login-container2 {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-primary-100);
+}
+.login-text {
+  top: 21px;
+  left: 49px;
+  position: absolute;
+}
+.login-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: var(--dl-space-space-unit);
+}
+.login-text1 {
+  width: 100%;
+  font-size: 30px;
+  margin-top: var(--dl-space-space-threeunits);
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.login-text2 {
+  font-size: 40px;
+}
+.login-container3 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.login-container4 {
+  flex: 0 0 auto;
+  width: 300px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.login-form {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+.login-ul {
+  height: 276px;
+  align-self: stretch;
+  padding-left: 0px;
+}
+.login-textinput {
+  width: 299px;
+  padding: 12px;
+  background-color: var(--dl-color-gray-900);
+}
+.login-textinput1 {
+  width: 299px;
+  padding: 12px;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  background-color: var(--dl-color-gray-900);
+}
+.login-li1 {
+  position: relative;
+}
+.login-button {
+  top: var(--dl-space-space-oneandhalfunits);
+  left: 98px;
+  color: var(--dl-color-gray-white);
+  width: 40%;
+  position: absolute;
+  text-align: center;
+  border-color: var(--dl-color-primary-100);
+  background-color: var(--dl-color-primary-100);
+}
+.login-li2 {
+  position: relative;
+  margin-top: var(--dl-space-space-fiveunits);
+}
+.login-button1 {
+  top: 0px;
+  right: 1px;
+  width: 40%;
+  position: absolute;
+  font-size: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.login-button1:hover {
+  border: none;
+  background-color: var(--dl-color-primary-300);
+}
+.login-navlink {
+  width: 40%;
+  font-size: 10px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+.login-navlink:hover {
+  border: none;
+  background-color: var(--dl-color-primary-300);
+}
+@media(max-width: 991px) {
+  .login-container2 {
+    width: 100%;
+    padding-right: 0px;
+  }
+}
+@media(max-width: 767px) {
+  .login-container2 {
+    width: 100%;
+    height: 50px;
+    position: relative;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--dl-color-primary-300);
+  }
+  .login-text {
+    top: 15px;
+    left: 60px;
+    position: absolute;
+  }
+  .login-icon {
+    top: 12px;
+    left: 6px;
+    position: absolute;
+  }
+}
+@media(max-width: 479px) {
+  .login-container2 {
+    width: 100%;
+    height: 64px;
+    position: relative;
+    border-color: var(--dl-color-gray-500);
+    margin-bottom: 2px;
+    padding-bottom: 0px;
+    background-color: var(--dl-color-primary-300);
+  }
+  .login-text {
+    top: 21px;
+    left: 60px;
+    color: var(--dl-color-gray-black);
+    position: absolute;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .login-icon {
+    top: 18px;
+    left: 3px;
+    width: 34px;
+    height: 29px;
+    position: absolute;
+    align-self: flex-start;
+  }
+  .login-text1 {
+    font-size: 40px;
+    align-self: center;
+    font-style: normal;
+    margin-top: var(--dl-space-space-twounits);
+    font-weight: 700;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .login-container3 {
+    height: 400px;
+    position: relative;
+    margin-top: 0px;
+  }
+  .login-container4 {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .login-form {
+    top: var(--dl-space-space-halfunit);
+    left: 0px;
+    right: 0px;
+    width: 300px;
+    height: 288px;
+    margin: auto;
+    position: absolute;
+  }
+  .login-ul {
+    height: 274px;
+    margin-top: 0px;
+  }
+  .login-textinput {
+    width: 100%;
+    height: 50px;
+    margin-top: var(--dl-space-space-unit);
+    border-width: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+    background-color: rgba(153, 153, 153, 0.4);
+  }
+  .login-textinput1 {
+    width: 100%;
+    height: 50px;
+    border-width: 0px;
+    background-color: rgba(153, 153, 153, 0.4);
+  }
+  .login-li1 {
+    position: relative;
+  }
+  .login-button {
+    top: var(--dl-space-space-oneandhalfunits);
+    left: 80px;
+    color: var(--dl-color-gray-black);
+    width: 40%;
+    position: absolute;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    border-width: 0px;
+    margin-bottom: 0px;
+    background-color: var(--dl-color-primary-300);
+  }
+  .login-li2 {
+    position: relative;
+  }
+  .login-button1 {
+    top: 2px;
+    color: var(--dl-color-gray-black);
+    right: 3px;
+    width: 40%;
+    height: 25px;
+    position: absolute;
+    font-size: 10px;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    border-width: 1px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    background-color: transparent;
+  }
+  .login-navlink {
+    top: 2px;
+    left: 3px;
+    color: var(--dl-color-gray-black);
+    width: 40%;
+    height: 25px;
+    position: absolute;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    border-width: 1px;
+    margin-bottom: 0px;
+    background-color: transparent;
+  }
+}
+
+.form-control:focus {
+  border-color: initial; /* Set the border color to the initial value */
+  box-shadow: none; /* Remove the box shadow */
+  background-color: azure;
+}

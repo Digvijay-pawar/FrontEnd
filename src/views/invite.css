@@ -1,0 +1,371 @@
+.invite-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.invite-container01 {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 500px;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-self: center;
+  align-items: flex-start;
+  background-color: rgba(133, 220, 255, 0.04);
+}
+.invite-container02 {
+  flex: 0 0 auto;
+  width: 500px;
+  height: auto;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+.invite-container03 {
+  width: 500px;
+  height: 80px;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  background-color: var(--dl-color-primary-100);
+  border-bottom-left-radius: var(--dl-radius-radius-radius8);
+  border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+.invite-container04 {
+  top: 170px;
+  left: 0px;
+  right: 0px;
+  width: 370px;
+  bottom: 0px;
+  height: 54px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  margin-bottom: auto;
+  flex-direction: column;
+}
+.invite-text {
+  left: 79px;
+  bottom: -9px;
+  height: auto;
+  margin: auto;
+  padding: var(--dl-space-space-halfunit);
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+  border-color: var(--dl-color-gray-900);
+  border-width: 3px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 3px;
+  border-bottom-width: 0px;
+}
+.invite-text01 {
+  left: 190px;
+  bottom: -9px;
+  height: auto;
+  margin: auto;
+  padding: var(--dl-space-space-halfunit);
+  position: absolute;
+  font-style: normal;
+  font-weight: 600;
+}
+.invite-container05 {
+  top: 35px;
+  flex: 0 0 auto;
+  left: 70px;
+  right: -176px;
+  width: 370px;
+  height: 93px;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: absolute;
+  align-self: center;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-primary-700);
+}
+.invite-button {
+  top: 25px;
+  color: var(--dl-color-gray-white);
+  right: 33px;
+  width: 122px;
+  position: absolute;
+  font-size: 15px;
+  font-style: normal;
+  transition: 0.3s;
+  font-weight: 500;
+  border-color: var(--dl-color-primary-100);
+  background-color: var(--dl-color-primary-100);
+}
+.invite-button:hover {
+  color: var(--dl-color-gray-white);
+  border-color: var(--dl-color-primary-100);
+  background-color: var(--dl-color-primary-100);
+}
+.invite-text03 {
+  top: 25px;
+  left: 28px;
+  color: var(--dl-color-gray-500);
+  position: absolute;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+}
+.invite-text04 {
+  top: 42px;
+  left: 30px;
+  position: absolute;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+}
+.invite-container06 {
+  width: 500px;
+  height: 12vh;
+  padding: var(--dl-space-space-unit);
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  margin-top: 90vh;
+  background-color: var(--dl-color-primary-100);
+}
+.invite-component {
+  text-decoration: none;
+}
+.invite-component1 {
+  text-decoration: none;
+}
+.invite-component2 {
+  text-decoration: none;
+}
+.invite-component3 {
+  text-decoration: none;
+}
+.invite-container07 {
+  top: 244px;
+  flex: 0 0 auto;
+  right: -1px;
+  width: 500px;
+  height: 141px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-900);
+  border-width: 20px;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-left-width: 0px;
+  border-right-width: 0px;
+}
+.invite-container08 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  text-align: center;
+  align-items: flex-end;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: column;
+  padding-bottom: 16px;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 0px;
+}
+.invite-text05 {
+  color: var(--dl-color-gray-500);
+  align-self: center;
+}
+.invite-text06 {
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.invite-text07 {
+  color: var(--dl-color-gray-500);
+  align-self: center;
+  margin-left: 0px;
+}
+.invite-container09 {
+  flex: 0 0 auto;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  text-align: center;
+  align-items: flex-end;
+  border-color: var(--dl-color-gray-900);
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: column;
+  padding-bottom: 16px;
+  justify-content: flex-start;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 2px;
+  border-bottom-width: 0px;
+}
+.invite-text08 {
+  color: var(--dl-color-gray-500);
+  align-self: center;
+}
+.invite-text09 {
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  margin-top: var(--dl-space-space-halfunit);
+  font-weight: 700;
+  margin-left: 0px;
+  margin-bottom: var(--dl-space-space-halfunit);
+}
+.invite-text10 {
+  color: var(--dl-color-gray-500);
+  align-self: center;
+  margin-left: 0px;
+}
+.invite-container10 {
+  top: 433px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 500px;
+  height: 129px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-oneandhalfunits);
+  padding-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-oneandhalfunits);
+}
+@media(max-width: 767px) {
+  .invite-container01 {
+    height: 88vh;
+  }
+  .invite-container05 {
+    height: 94px;
+  }
+  .invite-button {
+    top: 30px;
+    right: 29px;
+    height: 31px;
+    font-size: 10px;
+    border-color: var(--dl-color-primary-500);
+    background-color: var(--dl-color-primary-500);
+  }
+  .invite-text03 {
+    top: 20px;
+    left: 17px;
+    color: var(--dl-color-gray-500);
+    font-size: 10px;
+    font-style: inherit;
+    font-weight: 500;
+  }
+  .invite-container06 {
+    height: 10vh;
+    margin-top: 88vh;
+    margin-bottom: var(--dl-space-space-halfunit);
+    padding-bottom: 13px;
+  }
+}
+@media(max-width: 479px) {
+  .invite-container01 {
+    height: 88vh;
+  }
+  .invite-container03 {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    border-width: 0px;
+    border-radius: var(--dl-radius-radius-radius4);
+    background-color: var(--dl-color-primary-100);
+    border-bottom-left-radius: var(--dl-radius-radius-radius8);
+    border-bottom-right-radius: var(--dl-radius-radius-radius8);
+  }
+  .invite-container05 {
+    top: 38px;
+    left: 30px;
+    width: 338px;
+    height: 69px;
+    position: absolute;
+    padding-top: var(--dl-space-space-halfunit);
+    border-width: 0px;
+    padding-left: var(--dl-space-space-unit);
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-halfunit);
+    background-color: rgba(105, 198, 232, 1);
+  }
+  .invite-button {
+    top: 11px;
+    color: var(--dl-color-gray-white);
+    right: 20px;
+    width: 89px;
+    height: 29px;
+    font-size: 10px;
+    font-style: normal;
+    margin-top: var(--dl-space-space-halfunit);
+    font-weight: 500;
+    margin-left: var(--dl-space-space-halfunit);
+    padding-top: 0px;
+    background-color: var(--dl-color-primary-100);
+  }
+  .invite-text02 {
+    margin-top: var(--dl-space-space-halfunit);
+  }
+  .invite-text03 {
+    top: 13px;
+    left: 14px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .invite-text04 {
+    top: 34px;
+    left: 30px;
+  }
+  .invite-container06 {
+    top: 88vh;
+    left: 0px;
+    width: 96%;
+    height: 14vh;
+    margin: auto;
+    position: absolute;
+    margin-top: 0vh;
+    padding-left: 2px;
+  }
+  .invite-container07 {
+    top: 245px;
+    flex: 1;
+    left: 0px;
+    right: 0px;
+    width: 96%;
+    margin-top: auto;
+    margin-left: 0px;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  .invite-container08 {
+    width: 50%;
+  }
+}
